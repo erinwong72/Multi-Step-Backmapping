@@ -1,4 +1,5 @@
 # Multi-Step-Backmapping
+Code for multi-step backmapping framework. A modified CGVAE architecture is used for CG-CG backmapping, with saved checkpoints for each coarse-graining experiment and protein found in the CG-CG/ckpts direcrory.
 
 ## Reference
 Lim Heo & Michael Feig, "One particle per residue is sufficient to describe all-atom protein structures", _bioRxiv_ (**2023**). [Link](https://www.biorxiv.org/content/10.1101/2023.05.22.541652v1)
