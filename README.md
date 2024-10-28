@@ -1,7 +1,9 @@
 # Multi-Step-Backmapping
-Code for multi-step backmapping framework. A modified CGVAE architecture is used for CG-CG backmapping, with saved checkpoints for each coarse-graining experiment and protein found in the CG-CG/ckpts direcrory.
+Code for multi-step backmapping framework. A modified CGVAE architecture is used for CG-CG backmapping, with saved model weights for each coarse-graining experiment and protein found in the CG-CG/ckpts direcrory. Three interchangeable models are available for RBCG-AA backmapping and weights are found in the ckpts directory of the corresponding model folders (GenZProt, cg2all, DiAMoNDBack).
 
-## Reference
+## 
+This project "stands on the shoulders of giants" and was made possible due to the following previous models and studies:
+
 Lim Heo & Michael Feig, "One particle per residue is sufficient to describe all-atom protein structures", _bioRxiv_ (**2023**). [Link](https://www.biorxiv.org/content/10.1101/2023.05.22.541652v1)
 
 Michael S. Jones, Kirill Shmilovich, Andrew L. Ferguson, "DiAMoNDBack: Diffusion-denoising Autoregressive Model for Non-Deterministic Backmapping of Cα Protein Traces", _Journal of Chemical Theory and Computation_ (**2023**). [Link](https://arxiv.org/abs/2307.12451)
